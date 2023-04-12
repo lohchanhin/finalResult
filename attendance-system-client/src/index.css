@@ -1,0 +1,62 @@
+/* 通用樣式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* 頁首樣式 */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* 導航樣式 */
+  nav {
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+    font-weight: bold;
+  }
+  
+  /* 主要內容區樣式 */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* 頁腳樣式 */
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
